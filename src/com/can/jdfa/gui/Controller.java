@@ -682,8 +682,7 @@ public class Controller{
 				+e.getMessage());
 		}
 		MacApplication.run();
-		newFile(new File(
-			"/Users/nathan/Documents/cmu/15453-flac/homework1/prob1a.fsm"));
+		newFile(null);
 	}
 	
 	public static void newFile(File file){
